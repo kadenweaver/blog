@@ -6,8 +6,7 @@ body {
 .header {
   width: 100%;
   height: 125px;
-  margin-top: 4px;
-  padding: 5px;
+  margin-top: 4px; 
   font-size: 35px;
   text-align: center;
   background: #2b303a;
@@ -69,7 +68,7 @@ body {
 }
 
 .singlepg_bottom_mint {
-  margin-top: 5px;
+  margin-top: 8px;
   padding: 5px;
   background: #b1c1c0;
   color: #2b202a;
