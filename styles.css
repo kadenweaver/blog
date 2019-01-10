@@ -72,3 +72,11 @@ body {
   margin-top: 265px;
   padding: 5px;
 }
+
+.singlepg_bottom_mint {
+  margin-top: 256px;
+  padding: 5px;
+  background: #b1c1c0;
+  color: #2b202a;
+  align: center;
+}
