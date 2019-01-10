@@ -80,3 +80,7 @@ body {
   color: #2b202a;
   align: center;
 }
+
+.page_link {
+  text-decoration: none;
+}
