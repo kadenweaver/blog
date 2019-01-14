@@ -28,6 +28,7 @@ body {
   overflow:hidden;
   padding: 5px;
   margin-bottom: 5px;
+  border-radius: 15px;
 }
 
 .pink_post {
