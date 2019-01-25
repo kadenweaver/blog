@@ -21,7 +21,7 @@ body {
 }
 
 .blog {
-  margin-top: 32vw;
+  margin-top: 37vw;
 }
 
 .pic {
@@ -65,6 +65,10 @@ a:active {
 @media screen and (max-width: 800px) {
   .header {
     font-size: 20px;
+    height:120px; 
+  }
+  .title {
+    margin-top: 45px;
   }
   .gifv {
     width: 80%;
