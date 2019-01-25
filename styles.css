@@ -66,8 +66,12 @@ a:active {
   .header {
     font-size: 20px;
   }
+  .gifv {
+    width: 80%;
+  }
+
   .sppic {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
   }	
 }
