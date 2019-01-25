@@ -14,23 +14,21 @@ body {
   position: fixed;
   top:0;
   left:0;
-  font-size: 2.5vw;
+  font-size: 20px;
   background: #0b281a;
   color: #ffffff;
   z-index:100;
 }
 
-.toppic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.blog {
+  margin-top: 32vw;
 }
 
-.blogpic {
+.pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 32vw;
+
 }
 
 .post {
@@ -64,3 +62,11 @@ a:active {
   text-decoration: none;
 }
 
+@media screen and (max-width: 800px) {
+  .pic {
+    width: 80%;
+  }
+  .header {
+    font-size: 30px;
+  }	
+}
