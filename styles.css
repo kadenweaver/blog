@@ -68,5 +68,8 @@ a:active {
   }
   .header {
     font-size: 20px;
+  }
+  .sppic {
+    padding-top: 80%;
   }	
 }
