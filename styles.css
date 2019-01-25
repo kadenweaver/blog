@@ -65,9 +65,8 @@ a:active {
 @media screen and (max-width: 800px) {
   .pic {
     width: 80%;
-    padding-top: 80%;
   }
   .header {
-    font-size: 30px;
+    font-size: 20px;
   }	
 }
