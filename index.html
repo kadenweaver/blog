@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">	
 <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+<script src="jsfunctions.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="header">
@@ -13,7 +14,16 @@
 </div>
 <div class="bottom_container">
 	<img src="idk.gif" class="pic gifv">
-	<img src="coll.JPG"  height="550" width="550" class= "sppic blog pic">
+	<div class="linkcontainer">
+		<img src="important.jpeg" alt= "important" class = "importantpic">
+		<a href="https://www.youtube.com/watch?v=vLPQujE_qc8"><span class="emptyspan"></span></a>
+	</div>
+	<div class="dropcontainer" onclick="trans()">
+		<img src="coll.JPG" alt="Albers" class= "alberspic" id="alberspic">
+		<div class="albersdrop" id="albersdrop">
+			<p>Josef Albers, 1952</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>
