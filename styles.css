@@ -61,7 +61,6 @@ body {
   margin: 2em auto 20em auto;
   height: 500px;
   width: 888px;
-  background-image: url(IMG_2791.jpg);
 
 }
 .alberspic {
@@ -160,14 +159,14 @@ a:active {
   
   
   .vdaycontainer {
-    height:250px;
-    width:300px;
+    height: 250px;
+    width: 300px;
 	
   }
 	
 
   .dreamcatcher{
-	width:400px;
-        height:200px;
+	width: 560px;
+        height: 315px;
   }	
 }
