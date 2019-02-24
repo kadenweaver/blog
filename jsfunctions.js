@@ -4,3 +4,5 @@ function trans() {
 	document.getElementById("albersdrop").opacity = newopacity;
         document.getElementById("alberspic").opacity = dropopacity;
 }
+
+

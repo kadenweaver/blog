@@ -13,6 +13,19 @@
 	<h1 class="title">02 17 MYKW</h1>
 </div>
 <div class="bottom_container">
+	<div class="dreamcatcher" id="dream">
+		<video width="100%" height="100%" controls>
+			<source src="IMG_2772.mp4" type="video/mp4" id="videoplayer">
+		Your browser does not support the video tag. 
+		</video>
+	</div>
+	<div class="vdaycontainer">
+		<img src="alaska.JPG" alt="alaska" class="importantpic">
+	</div>
+
+	<div class="vdaycontainer">
+		<img src="vday.jpeg" alt="valentino" class="importantpic">
+	</div>
 	<img src="idk.gif" class="pic gifv">
 	<div class="linkcontainer">
 		<img src="important.jpeg" alt= "important" class = "importantpic">
@@ -24,6 +37,22 @@
 			<p>Josef Albers, 1952</p>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var videoplayer = document.getElementById('videoplayer');
+		videoplayer.onclick = function(){
+			var contain = document.getElementById('dream');
+			if(videoplayer.paused){
+				contain.style.zIndex = "1";
+				videoplayer.play();
+				
+			}
+			else{
+				contain.style.zIndex ' "-1";
+				videoplayer.pause();
+
+			}
+			
+		}
 </div>
 </body>
 </html>

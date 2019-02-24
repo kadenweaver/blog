@@ -46,6 +46,23 @@ body {
 
 }
 
+.vdaycontainer {
+  position: relative;
+  display: block;
+  margin: 20em auto;
+  height: 450px;
+  width: 500px;
+  
+}
+
+.dreamcatcher {
+  position: relative;
+  display: block;
+  margin: 2em auto 20em auto;
+  height: 500px;
+  width: 888px;
+
+}
 .alberspic {
   width: 100%;
   height: 100%;
@@ -139,4 +156,17 @@ a:active {
     height: 167px;
     width: 300px;
   }
+  
+  
+  .vdaycontainer{
+    height:250;
+    width:300px;
+	
+  }
+	
+
+  .dreamcatcher{
+	width:400px;
+        height:200px;
+  }	
 }
